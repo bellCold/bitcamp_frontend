@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML CSS Left Right Split</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: #333333;
+        }
+        #headline {
+            background-color: aliceblue;
+            padding-top: 10px;
+            width: 1440px;
+            height: 123px;
+        }
+
+        div.left {
+            width: 10%;
+            float: left;
+            box-sizing: border-box;
+            text-align: left;
+            margin-left: 170px;
+            font-size: 15px;
+        }   
+
+        div.right {
+            font-family:Arial, Helvetica, serif;
+            font-size: 15px;
+            width: 50%;
+            float: right;
+            box-sizing: border-box;
+            text-align: right;
+            margin-right: 170px;
+            word-spacing: 10px;
+            
+        }
+        .img_button {
+            background: no-repeat;
+            border: none;
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="headline">
+        <div class="left">
+            <img src="../images/star.png" width="100px">
+        </div>
+        <div class="right">
+            <a href="#">Sign In</a>
+            <a href="#">My Starbucks</a>
+            <a href="#">Custmer</a>
+            <a href="#">Find a store</a>
+            <input type="button" class="img_button">
+            <br>
+            <a href="#">COFFEE MENU</a>
+            <a href="#">STORE</a>
+            <a href="#">REPONSIBILITY</a>
+            <a href="#">STARBUCKS</a>
+            <a href="#">WHAT`S NEW</a>
+        </div>
+    </div>
+    <div class="midimg">
+        <img src="../images/mid.png" width="100%">
+    </div>
+</body>
+
+</html>
