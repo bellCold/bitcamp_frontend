@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+#area_1 {
+    background-color: blue;
+    text-align: center;
+}
+#area_1 #p2{
+    background-color: darkgoldenrod;
+}
+
+#area_3{
+    display: flex;
+    background-color: cadetblue;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#area_4 {
+    background-color: cornflowerblue;
+}
